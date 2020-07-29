@@ -13,7 +13,7 @@ var john = {
 		full_name: "JNewyork",
 		mass:200,
 		profession: ["wrestler", "Actor"],
-		height: 5.9,
+		height: 5.10,
 		bmiCalc: function(){
 				this.bmi = this.mass / (this.height * this.height);
 				return this.bmi;
