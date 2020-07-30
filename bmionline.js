@@ -1,4 +1,4 @@
-var mark = {
+var london = {
 		full_name: "London",
 		mass:200,
 		pets: "tiger",
@@ -10,8 +10,8 @@ var mark = {
 		}
 };
 
-var john = {
-		full_name: "JNewyork",
+var newyork = {
+		full_name: "Newyork",
 		mass:200,
 		pets: "cats",
 		profession: ["wrestler", "Actor"],
@@ -26,4 +26,4 @@ var john = {
 mark.bmiCalc();
 john.bmiCalc();
 
-console.log((mark.bmi > john.bmi)? "London's BMI is greater": ((john.bmi > mark.bmi)? "Newyork's BMI is greater": "Both got same BMI" ));
+console.log((london.bmi > newyork.bmi)? "London's BMI is greater": ((newyork.bmi > london.bmi)? "Newyork's BMI is greater": "Both got same BMI" ));
