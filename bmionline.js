@@ -1,6 +1,7 @@
 var mark = {
 		full_name: "London",
 		mass:200,
+		pets: "tiger",
 		profession: "boxer",
 		height: 5.9,
 		bmiCalc: function(){
@@ -12,6 +13,7 @@ var mark = {
 var john = {
 		full_name: "JNewyork",
 		mass:200,
+		pets: "cats",
 		profession: ["wrestler", "Actor"],
 		height: 5.10,
 		bmiCalc: function(){
